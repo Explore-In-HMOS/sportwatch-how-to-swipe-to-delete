@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_list {
+    width: 70%;
+    height: 100%;
+}
+
+.empty_item {
+    height: 15%;
+}
+
+.main_item {
+    height: 80px;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_div {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main_content {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.del_div {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: red;
+    margin-left: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.del_img {
+    width: 48px;
+    height: 48px;
+}

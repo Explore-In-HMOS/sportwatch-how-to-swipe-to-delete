@@ -1,0 +1,16 @@
+<div class="container">
+    <list class="main_list">
+        <list-item class="empty_item"></list-item>
+        <list-item class="main_item" for="{{ (index, num) in arr }}">
+            <div class="main_div">
+                <div class="main_content" @swipe="openCloseMenu(index)">
+                    <text>{{ num }}</text>
+                </div>
+                <div if="{{ menuOpen[index] }}" class="del_div">
+                    <image class="del_img" src="/common/delete_white.png"></image>
+                </div>
+            </div>
+        </list-item>
+        <list-item style="height: 15%;"></list-item>
+    </list>
+</div>
